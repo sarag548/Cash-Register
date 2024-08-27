@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register Project</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Cash Register</h1>
+    <div id="bill-background">
+      <div class="dollar-sign">
+        <p class="dollar">$</p>
+        <p class="dollar">$</p>
+      </div>
+      <div id="inner-box">
+        <span class="circle"></span>
+        <span class="circle right"></span>
+        <div id="cash-input">
+          <label for="cash">Cash</label>
+          <br>
+          <input type="number" id="cash"></input>
+        </div>
+          <span class="circle"></span>
+          <span class="circle right"></span>
+      </div>
+      <div class="dollar-sign">
+        <p class="dollar">$</p>
+        <p class="dollar">$</p>
+      </div>
+    </div>
+    <p id="price"><p>
+    <div id="purchase">
+      <button id="purchase-btn">Purchase</button>
+    </div>
+    <div id="change">
+      <div id="change-available">
+        <h4>Change available:
+        <p><b>Pennies</b>: $<span id="pennies"></span></p>
+        <p><b>Nickels</b>: $<span id="nickels"></span></p>
+        <p><b>Dimes</b>: $<span id="dimes"></span></p>
+        <p><b>Quarters</b>: $<span id="quarters"></span></p>
+        <p><b>Ones</b>: $<span id="ones"></span></p>
+        <p><b>Fives</b>: $<span id="fives"></span></p>
+        <p><b>Tens<b>: $<span id="tens"></span></p>
+        <p><b>Twenties</b>: $<span id="twenties"></span></p>
+        <p><b>Hundreds</b>: $<span id="hundreds"></span></p>
+      </div>
+      <div id ="change-due">
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
