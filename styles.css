@@ -1,0 +1,109 @@
+body{
+  background-color: #073763;
+}
+
+h1{
+  background-color: #2986cc;
+  color: white;
+  text-align: center;
+}
+#bill-background{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #8fce00;
+  height: 180px;
+  width: 320px;
+}
+
+#inner-box{
+  height: 110px;
+  width: 250px;
+  background-color: #627731;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+}
+
+.circle {
+  height: 30px;
+  width: 30px;
+  background-color: #8fce00 ;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+}
+
+.dollar{
+  font-size: 30px;
+  margin: 0px
+}
+
+.right{
+  margin-left: 185;
+}
+
+#cash-input{
+  text-align: center;
+  margin: 0;
+}
+
+label{
+  color:white;
+  font-size: 20px;
+}
+
+input{
+  width: 100px;
+  height: 25px;
+}
+
+.dollar-sign{
+  display: flex;
+  justify-content: space-between;
+}
+
+#purchase{
+  text-align: center;
+}
+
+#purchase-btn{
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: #cfe2f3;
+  font-weight: bold;
+}
+
+#change{
+  display: flex;
+  justify-content: space-between;
+}
+
+#change-due{
+  background-color: #cfe2f3;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+#change-available{
+  background-color: #cfe2f3;
+  width: 150px;
+  height: 250px;
+  margin-top: 20px;
+}
+
+h4{
+  margin-top: 5px;;
+}
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+#price{
+  color: #cfe2f3;
+  text-align: center;
+  margin-top: 5px;
+  font-weight: bold;
+}
